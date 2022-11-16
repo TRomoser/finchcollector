@@ -31,4 +31,4 @@ class FinchUpdate(UpdateView):
 
 class FinchDelete(DeleteView):
   model = Finch
-  sucess_url = '/finches'
+  success_url = '/finches'
